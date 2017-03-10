@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31152A81E71330200A16D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C31152A71E71330200A16D8F /* main.m */; };
+		C31152AB1E71330200A16D8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C31152AA1E71330200A16D8F /* AppDelegate.m */; };
+		C31152AE1E71330200A16D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31152AD1E71330200A16D8F /* ViewController.m */; };
+		C31152B11E71330200A16D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31152AF1E71330200A16D8F /* Main.storyboard */; };
+		C31152B31E71330200A16D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31152B21E71330200A16D8F /* Assets.xcassets */; };
+		C31152B61E71330200A16D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31152B41E71330200A16D8F /* LaunchScreen.storyboard */; };
+		C31152C11E71330300A16D8F /* RecordVideoAndTakePhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31152C01E71330300A16D8F /* RecordVideoAndTakePhotoTests.m */; };
+		C31152CC1E71330300A16D8F /* RecordVideoAndTakePhotoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31152CB1E71330300A16D8F /* RecordVideoAndTakePhotoUITests.m */; };
+		C31152DC1E71338300A16D8F /* RecordVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31152DA1E71338300A16D8F /* RecordVideoViewController.m */; };
+		C31152DD1E71338300A16D8F /* RecordVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31152DB1E71338300A16D8F /* RecordVideoViewController.xib */; };
+		C31152E11E71339A00A16D8F /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31152DF1E71339A00A16D8F /* TakePhotoViewController.m */; };
+		C31152E21E71339A00A16D8F /* TakePhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31152E01E71339A00A16D8F /* TakePhotoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C31152BD1E71330300A16D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C311529B1E71330200A16D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31152A21E71330200A16D8F;
+			remoteInfo = RecordVideoAndTakePhoto;
+		};
+		C31152C81E71330300A16D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C311529B1E71330200A16D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31152A21E71330200A16D8F;
+			remoteInfo = RecordVideoAndTakePhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C31152A31E71330200A16D8F /* RecordVideoAndTakePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordVideoAndTakePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31152A71E71330200A16D8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C31152A91E71330200A16D8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C31152AA1E71330200A16D8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C31152AC1E71330200A16D8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C31152AD1E71330200A16D8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C31152B01E71330200A16D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C31152B21E71330200A16D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C31152B51E71330200A16D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C31152B71E71330200A16D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31152BC1E71330300A16D8F /* RecordVideoAndTakePhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordVideoAndTakePhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31152C01E71330300A16D8F /* RecordVideoAndTakePhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordVideoAndTakePhotoTests.m; sourceTree = "<group>"; };
+		C31152C21E71330300A16D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31152C71E71330300A16D8F /* RecordVideoAndTakePhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordVideoAndTakePhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31152CB1E71330300A16D8F /* RecordVideoAndTakePhotoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordVideoAndTakePhotoUITests.m; sourceTree = "<group>"; };
+		C31152CD1E71330300A16D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31152D91E71338300A16D8F /* RecordVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVideoViewController.h; sourceTree = "<group>"; };
+		C31152DA1E71338300A16D8F /* RecordVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVideoViewController.m; sourceTree = "<group>"; };
+		C31152DB1E71338300A16D8F /* RecordVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordVideoViewController.xib; sourceTree = "<group>"; };
+		C31152DE1E71339A00A16D8F /* TakePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoViewController.h; sourceTree = "<group>"; };
+		C31152DF1E71339A00A16D8F /* TakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoViewController.m; sourceTree = "<group>"; };
+		C31152E01E71339A00A16D8F /* TakePhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakePhotoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C31152A01E71330200A16D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31152B91E71330300A16D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31152C41E71330300A16D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C311529A1E71330200A16D8F = {
+			isa = PBXGroup;
+			children = (
+				C31152A51E71330200A16D8F /* RecordVideoAndTakePhoto */,
+				C31152BF1E71330300A16D8F /* RecordVideoAndTakePhotoTests */,
+				C31152CA1E71330300A16D8F /* RecordVideoAndTakePhotoUITests */,
+				C31152A41E71330200A16D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C31152A41E71330200A16D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C31152A31E71330200A16D8F /* RecordVideoAndTakePhoto.app */,
+				C31152BC1E71330300A16D8F /* RecordVideoAndTakePhotoTests.xctest */,
+				C31152C71E71330300A16D8F /* RecordVideoAndTakePhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31152A51E71330200A16D8F /* RecordVideoAndTakePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				C31152A91E71330200A16D8F /* AppDelegate.h */,
+				C31152AA1E71330200A16D8F /* AppDelegate.m */,
+				C31152AC1E71330200A16D8F /* ViewController.h */,
+				C31152AD1E71330200A16D8F /* ViewController.m */,
+				C31152DE1E71339A00A16D8F /* TakePhotoViewController.h */,
+				C31152DF1E71339A00A16D8F /* TakePhotoViewController.m */,
+				C31152E01E71339A00A16D8F /* TakePhotoViewController.xib */,
+				C31152D91E71338300A16D8F /* RecordVideoViewController.h */,
+				C31152DA1E71338300A16D8F /* RecordVideoViewController.m */,
+				C31152DB1E71338300A16D8F /* RecordVideoViewController.xib */,
+				C31152AF1E71330200A16D8F /* Main.storyboard */,
+				C31152B21E71330200A16D8F /* Assets.xcassets */,
+				C31152B41E71330200A16D8F /* LaunchScreen.storyboard */,
+				C31152B71E71330200A16D8F /* Info.plist */,
+				C31152A61E71330200A16D8F /* Supporting Files */,
+			);
+			path = RecordVideoAndTakePhoto;
+			sourceTree = "<group>";
+		};
+		C31152A61E71330200A16D8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C31152A71E71330200A16D8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C31152BF1E71330300A16D8F /* RecordVideoAndTakePhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C31152C01E71330300A16D8F /* RecordVideoAndTakePhotoTests.m */,
+				C31152C21E71330300A16D8F /* Info.plist */,
+			);
+			path = RecordVideoAndTakePhotoTests;
+			sourceTree = "<group>";
+		};
+		C31152CA1E71330300A16D8F /* RecordVideoAndTakePhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C31152CB1E71330300A16D8F /* RecordVideoAndTakePhotoUITests.m */,
+				C31152CD1E71330300A16D8F /* Info.plist */,
+			);
+			path = RecordVideoAndTakePhotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C31152A21E71330200A16D8F /* RecordVideoAndTakePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31152D01E71330300A16D8F /* Build configuration list for PBXNativeTarget "RecordVideoAndTakePhoto" */;
+			buildPhases = (
+				C311529F1E71330200A16D8F /* Sources */,
+				C31152A01E71330200A16D8F /* Frameworks */,
+				C31152A11E71330200A16D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordVideoAndTakePhoto;
+			productName = RecordVideoAndTakePhoto;
+			productReference = C31152A31E71330200A16D8F /* RecordVideoAndTakePhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C31152BB1E71330300A16D8F /* RecordVideoAndTakePhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31152D31E71330300A16D8F /* Build configuration list for PBXNativeTarget "RecordVideoAndTakePhotoTests" */;
+			buildPhases = (
+				C31152B81E71330300A16D8F /* Sources */,
+				C31152B91E71330300A16D8F /* Frameworks */,
+				C31152BA1E71330300A16D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31152BE1E71330300A16D8F /* PBXTargetDependency */,
+			);
+			name = RecordVideoAndTakePhotoTests;
+			productName = RecordVideoAndTakePhotoTests;
+			productReference = C31152BC1E71330300A16D8F /* RecordVideoAndTakePhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C31152C61E71330300A16D8F /* RecordVideoAndTakePhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31152D61E71330300A16D8F /* Build configuration list for PBXNativeTarget "RecordVideoAndTakePhotoUITests" */;
+			buildPhases = (
+				C31152C31E71330300A16D8F /* Sources */,
+				C31152C41E71330300A16D8F /* Frameworks */,
+				C31152C51E71330300A16D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31152C91E71330300A16D8F /* PBXTargetDependency */,
+			);
+			name = RecordVideoAndTakePhotoUITests;
+			productName = RecordVideoAndTakePhotoUITests;
+			productReference = C31152C71E71330300A16D8F /* RecordVideoAndTakePhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C311529B1E71330200A16D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yons;
+				TargetAttributes = {
+					C31152A21E71330200A16D8F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6PKRU8JWQ6;
+						ProvisioningStyle = Automatic;
+					};
+					C31152BB1E71330300A16D8F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6PKRU8JWQ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C31152A21E71330200A16D8F;
+					};
+					C31152C61E71330300A16D8F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6PKRU8JWQ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C31152A21E71330200A16D8F;
+					};
+				};
+			};
+			buildConfigurationList = C311529E1E71330200A16D8F /* Build configuration list for PBXProject "RecordVideoAndTakePhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C311529A1E71330200A16D8F;
+			productRefGroup = C31152A41E71330200A16D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C31152A21E71330200A16D8F /* RecordVideoAndTakePhoto */,
+				C31152BB1E71330300A16D8F /* RecordVideoAndTakePhotoTests */,
+				C31152C61E71330300A16D8F /* RecordVideoAndTakePhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C31152A11E71330200A16D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31152B61E71330200A16D8F /* LaunchScreen.storyboard in Resources */,
+				C31152B31E71330200A16D8F /* Assets.xcassets in Resources */,
+				C31152E21E71339A00A16D8F /* TakePhotoViewController.xib in Resources */,
+				C31152B11E71330200A16D8F /* Main.storyboard in Resources */,
+				C31152DD1E71338300A16D8F /* RecordVideoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31152BA1E71330300A16D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31152C51E71330300A16D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C311529F1E71330200A16D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31152E11E71339A00A16D8F /* TakePhotoViewController.m in Sources */,
+				C31152AE1E71330200A16D8F /* ViewController.m in Sources */,
+				C31152AB1E71330200A16D8F /* AppDelegate.m in Sources */,
+				C31152A81E71330200A16D8F /* main.m in Sources */,
+				C31152DC1E71338300A16D8F /* RecordVideoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31152B81E71330300A16D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31152C11E71330300A16D8F /* RecordVideoAndTakePhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31152C31E71330300A16D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31152CC1E71330300A16D8F /* RecordVideoAndTakePhotoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C31152BE1E71330300A16D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31152A21E71330200A16D8F /* RecordVideoAndTakePhoto */;
+			targetProxy = C31152BD1E71330300A16D8F /* PBXContainerItemProxy */;
+		};
+		C31152C91E71330300A16D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31152A21E71330200A16D8F /* RecordVideoAndTakePhoto */;
+			targetProxy = C31152C81E71330300A16D8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C31152AF1E71330200A16D8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31152B01E71330200A16D8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C31152B41E71330200A16D8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31152B51E71330200A16D8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C31152CE1E71330300A16D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C31152CF1E71330300A16D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C31152D11E71330300A16D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PKRU8JWQ6;
+				INFOPLIST_FILE = RecordVideoAndTakePhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WY.RecordVideoAndTakePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C31152D21E71330300A16D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PKRU8JWQ6;
+				INFOPLIST_FILE = RecordVideoAndTakePhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WY.RecordVideoAndTakePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C31152D41E71330300A16D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6PKRU8JWQ6;
+				INFOPLIST_FILE = RecordVideoAndTakePhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WY.RecordVideoAndTakePhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordVideoAndTakePhoto.app/RecordVideoAndTakePhoto";
+			};
+			name = Debug;
+		};
+		C31152D51E71330300A16D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6PKRU8JWQ6;
+				INFOPLIST_FILE = RecordVideoAndTakePhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WY.RecordVideoAndTakePhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordVideoAndTakePhoto.app/RecordVideoAndTakePhoto";
+			};
+			name = Release;
+		};
+		C31152D71E71330300A16D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6PKRU8JWQ6;
+				INFOPLIST_FILE = RecordVideoAndTakePhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WY.RecordVideoAndTakePhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RecordVideoAndTakePhoto;
+			};
+			name = Debug;
+		};
+		C31152D81E71330300A16D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6PKRU8JWQ6;
+				INFOPLIST_FILE = RecordVideoAndTakePhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WY.RecordVideoAndTakePhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RecordVideoAndTakePhoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C311529E1E71330200A16D8F /* Build configuration list for PBXProject "RecordVideoAndTakePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31152CE1E71330300A16D8F /* Debug */,
+				C31152CF1E71330300A16D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31152D01E71330300A16D8F /* Build configuration list for PBXNativeTarget "RecordVideoAndTakePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31152D11E71330300A16D8F /* Debug */,
+				C31152D21E71330300A16D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C31152D31E71330300A16D8F /* Build configuration list for PBXNativeTarget "RecordVideoAndTakePhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31152D41E71330300A16D8F /* Debug */,
+				C31152D51E71330300A16D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C31152D61E71330300A16D8F /* Build configuration list for PBXNativeTarget "RecordVideoAndTakePhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31152D71E71330300A16D8F /* Debug */,
+				C31152D81E71330300A16D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C311529B1E71330200A16D8F /* Project object */;
+}
