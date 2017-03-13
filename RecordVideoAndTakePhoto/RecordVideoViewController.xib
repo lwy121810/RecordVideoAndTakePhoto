@@ -11,6 +11,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecordVideoViewController">
             <connections>
+                <outlet property="imageView" destination="tLk-o3-EzE" id="hdo-bL-q7V"/>
+                <outlet property="startButton" destination="Tdq-ZW-vZf" id="fMi-fY-4ZQ"/>
+                <outlet property="stopButton" destination="l28-qG-HKv" id="86p-pm-XOs"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
