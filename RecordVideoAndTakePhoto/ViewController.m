@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TakePhotoViewController.h"
 #import "RecordVideoViewController.h"
+#import "DemoViewController.h"
 
 @interface ViewController ()
 - (IBAction)takePhtoo:(id)sender;
@@ -21,6 +22,11 @@
 
 - (IBAction)takePhtoo:(id)sender {
     TakePhotoViewController *vc = [[TakePhotoViewController alloc] init];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)demo:(id)sender {
+    DemoViewController *vc = [[DemoViewController alloc] init];
     
     [self.navigationController pushViewController:vc animated:YES];
 }

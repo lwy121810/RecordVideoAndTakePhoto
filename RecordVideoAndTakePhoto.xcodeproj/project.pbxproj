@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94E109A92015DB4500C143B2 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E109A62015DB4400C143B2 /* DemoViewController.m */; };
+		94E109AA2015DB4500C143B2 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94E109A82015DB4400C143B2 /* DemoViewController.xib */; };
+		94E109AD2015DBFE00C143B2 /* WYAVManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E109AB2015DBFD00C143B2 /* WYAVManager.m */; };
 		C31152A81E71330200A16D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C31152A71E71330200A16D8F /* main.m */; };
 		C31152AB1E71330200A16D8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C31152AA1E71330200A16D8F /* AppDelegate.m */; };
 		C31152AE1E71330200A16D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31152AD1E71330200A16D8F /* ViewController.m */; };
@@ -39,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94E109A62015DB4400C143B2 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		94E109A72015DB4400C143B2 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		94E109A82015DB4400C143B2 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		94E109AB2015DBFD00C143B2 /* WYAVManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAVManager.m; sourceTree = "<group>"; };
+		94E109AC2015DBFD00C143B2 /* WYAVManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAVManager.h; sourceTree = "<group>"; };
 		C31152A31E71330200A16D8F /* RecordVideoAndTakePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordVideoAndTakePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31152A71E71330200A16D8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C31152A91E71330200A16D8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +121,8 @@
 			children = (
 				C31152A91E71330200A16D8F /* AppDelegate.h */,
 				C31152AA1E71330200A16D8F /* AppDelegate.m */,
+				94E109AC2015DBFD00C143B2 /* WYAVManager.h */,
+				94E109AB2015DBFD00C143B2 /* WYAVManager.m */,
 				C31152AC1E71330200A16D8F /* ViewController.h */,
 				C31152AD1E71330200A16D8F /* ViewController.m */,
 				C31152DE1E71339A00A16D8F /* TakePhotoViewController.h */,
@@ -121,6 +131,9 @@
 				C31152D91E71338300A16D8F /* RecordVideoViewController.h */,
 				C31152DA1E71338300A16D8F /* RecordVideoViewController.m */,
 				C31152DB1E71338300A16D8F /* RecordVideoViewController.xib */,
+				94E109A72015DB4400C143B2 /* DemoViewController.h */,
+				94E109A62015DB4400C143B2 /* DemoViewController.m */,
+				94E109A82015DB4400C143B2 /* DemoViewController.xib */,
 				C31152AF1E71330200A16D8F /* Main.storyboard */,
 				C31152B21E71330200A16D8F /* Assets.xcassets */,
 				C31152B41E71330200A16D8F /* LaunchScreen.storyboard */,
@@ -223,7 +236,7 @@
 				TargetAttributes = {
 					C31152A21E71330200A16D8F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 6PKRU8JWQ6;
+						DevelopmentTeam = 968V32YDMU;
 						ProvisioningStyle = Automatic;
 					};
 					C31152BB1E71330300A16D8F = {
@@ -266,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31152B61E71330200A16D8F /* LaunchScreen.storyboard in Resources */,
+				94E109AA2015DB4500C143B2 /* DemoViewController.xib in Resources */,
 				C31152B31E71330200A16D8F /* Assets.xcassets in Resources */,
 				C31152E21E71339A00A16D8F /* TakePhotoViewController.xib in Resources */,
 				C31152B11E71330200A16D8F /* Main.storyboard in Resources */,
@@ -295,9 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31152E11E71339A00A16D8F /* TakePhotoViewController.m in Sources */,
+				94E109AD2015DBFE00C143B2 /* WYAVManager.m in Sources */,
 				C31152AE1E71330200A16D8F /* ViewController.m in Sources */,
 				C31152AB1E71330200A16D8F /* AppDelegate.m in Sources */,
 				C31152A81E71330200A16D8F /* main.m in Sources */,
+				94E109A92015DB4500C143B2 /* DemoViewController.m in Sources */,
 				C31152DC1E71338300A16D8F /* RecordVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,11 +463,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6PKRU8JWQ6;
+				DEVELOPMENT_TEAM = 968V32YDMU;
 				INFOPLIST_FILE = RecordVideoAndTakePhoto/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WY.RecordVideoAndTakePhoto;
+				PRODUCT_BUNDLE_IDENTIFIER = lwy.TencentIMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -460,11 +476,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6PKRU8JWQ6;
+				DEVELOPMENT_TEAM = 968V32YDMU;
 				INFOPLIST_FILE = RecordVideoAndTakePhoto/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WY.RecordVideoAndTakePhoto;
+				PRODUCT_BUNDLE_IDENTIFIER = lwy.TencentIMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -538,6 +554,7 @@
 				C31152D21E71330300A16D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C31152D31E71330300A16D8F /* Build configuration list for PBXNativeTarget "RecordVideoAndTakePhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +563,7 @@
 				C31152D51E71330300A16D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C31152D61E71330300A16D8F /* Build configuration list for PBXNativeTarget "RecordVideoAndTakePhotoUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +572,7 @@
 				C31152D81E71330300A16D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
